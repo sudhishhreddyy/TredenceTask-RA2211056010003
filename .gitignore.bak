@@ -1,0 +1,28 @@
+# Python / venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# DB and logs (usually excluded)
+workflow.db
+workflow.log
+
+# env files
+.env
+
+# node modules (if any)
+node_modules/

@@ -1,0 +1,8 @@
+{
+  "graph_id": "1f78bb3a-0031-41f4-8f8a-39b423e5f186",
+  "initial_state": {
+    "text": "Test run after auto-load: ensure engine finds graph without re-creating.",
+    "chunk_size": 80,
+    "limit": 120
+  }
+}

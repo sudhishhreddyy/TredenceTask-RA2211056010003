@@ -1,0 +1,22 @@
+{
+  "name": "summarization_workflow",
+  "nodes": {
+    "split": {},
+    "summarize": {},
+    "merge": {},
+    "refine": {},
+    "measure": {}
+  },
+  "edges": {
+    "split": "summarize",
+    "summarize": "merge",
+    "merge": "refine",
+    "refine": "measure",
+    "measure": {
+      "condition": "state.get('summary_length', 0) < state.get('limit', 100)",
+      "true": null,
+      "false": "refine"
+    }
+  },
+  "entry": "split"
+}

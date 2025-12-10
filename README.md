@@ -35,7 +35,7 @@ README.md
 
 ---
 
-## 🚀 Quick Setup (macOS)
+## 🚀 Quick Setup
 
 ### 1. Clone repo + create virtual environment
 
